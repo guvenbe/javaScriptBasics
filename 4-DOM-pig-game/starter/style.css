@@ -1,6 +1,32 @@
 /**********************************************
 *** GENERAL
 **********************************************/
+.final-score {
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 10px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+.set-score {
+    left: 35%;
+    position: absolute;
+    font-size:20px;
+    color: #EB4D4D;
+    font-family: 'Lato';
+    text-align: center;
+    top: 530px
+}
+
+.final-score:focus { outline: none}
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
 
 * {
     margin: 0;
@@ -81,6 +107,14 @@ body {
     top: -7px;
     right: 10px;
     
+}
+.player-Last-Sixes{
+    background-color: #EB4D4D;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
 }
 
 .player-current-box {
